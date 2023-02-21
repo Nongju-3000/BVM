@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_bvm">
+
+    <fragment
+        android:id="@+id/navigation_bvm"
+        android:name="com.credo.bvm.ui.BVM.BVMFragment"
+        android:label="@string/bvm"
+        tools:layout="@layout/fragment_bvm" />
+
+    <fragment
+        android:id="@+id/navigation_cpr"
+        android:name="com.credo.bvm.ui.CPR.CPRFragment"
+        android:label="@string/cpr"
+        tools:layout="@layout/fragment_cpr" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.credo.bvm.ui.settings.settingsFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

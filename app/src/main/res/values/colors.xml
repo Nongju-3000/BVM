@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bcd6</color>
+    <color name="colorPrimaryDark">#00a0b5</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- <color name="colorSecondPrimary">#00bcd6</color> -->
+    <color name="colorSecondPrimary">#161616</color>
+    <color name="colorRtc">#00bcd6</color>
+    <color name="colorSecondPrimaryDark">#00a0b5</color> <!--RealTimeCPR -->
+
+    <color name="colorPrimaryLight">#b2eaf1</color>
+    <!--j <color name="colorSecondaryAccent">#ffeb3b</color>-->
+    <color name="colorSecondaryAccent">#0085E8</color> <!-- CPR DATA 밑에 글자 색-->
+
+    <color name="colorThirdPrimary">#3F51B5</color>
+    <color name="colorThirdPrimaryDark">#303F9F</color>
+    <color name="colorSecondaryLight">#c5cae9</color>
+
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+
+    <color name="primaryTxt">#212121</color>
+    <color name="dividerColor">#bdbdbd</color>
+    <color name="mainGreyBlur">#66bcbdc0</color>
+    <color name="mRed">#FF7E79</color>
+    <color name="mGray">#b0bec5</color>
+
+    <color name="listColor">#F5F5F5</color>
+    <color name="mainGrey">#bcbdc0</color>
+    <color name="sunday">#ef5350</color>
+    <color name="saturday">#1976d2</color>
+
+    <color name="white_color">#FFF</color>
+    <color name="popup_background">#282828</color>
+
+    <color name="lineColorStep">#0098FF</color>
+    <color name="lineColorCalories">#0098FF</color>
+    <color name="lineColorDistance">#448aff</color>
+    <color name="textunderline">#8C8C8C</color>
+
+    <color name="radioChecked">#0098FF</color>
+    <color name="radioUnChecked">#DDDDDD</color>
+
+    <color name="statusbar">#161616</color>
+    <color name="pedoIndicator">#5FCEFF</color>
+    <color name="pedocorecolor">#36B7FF</color>
+
+    <color name="bordercolor">#414141</color>
+    <color name="insidecolor">#282828</color>
+</resources>

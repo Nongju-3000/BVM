@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BVM</string>
+    <string name="bvm">BVM</string>
+    <string name="bvm_Speed">BVM Speed</string>
+    <string name="compress">Press</string>
+    <string name="connect">Connect</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting...</string>
+    <string name="count">Count</string>
+    <string name="cpr">CPR</string>
+    <string name="cpr_band">CPR Band</string>
+    <string name="device">Device</string>
+    <string name="deviceName">DeviceName</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="fail_to_connect">Fail to Connect</string>
+    <string name="realtimeinfo">Info</string>
+    <string name="setting">Setting</string>
+    <string name="status">Device Status</string>
+    <string name="time">Time</string>
+    <string name="total">Total</string>
+    <string name="search">Search</string>
+</resources>
