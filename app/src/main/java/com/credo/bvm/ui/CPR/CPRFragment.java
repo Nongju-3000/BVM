@@ -1,5 +1,6 @@
 package com.credo.bvm.ui.CPR;
 
+import android.bluetooth.BluetoothDevice;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,8 +33,24 @@ public class CPRFragment extends Fragment implements BLEService.BVMDataUpdateLis
         binding = null;
     }
 
+
     @Override
-    public void onDataUpdated(String data, String label) {
+    public void onCPRBANDDataUpdated(String data, String label) {
+
+    }
+
+    @Override
+    public void onCPRBANDDataUpdated(BluetoothDevice device) {
+
+    }
+
+    @Override
+    public void onBVMDataUpdated(String data, String label) {
+
+    }
+
+    @Override
+    public void onBVMDataUpdated(BluetoothDevice device) {
 
     }
 }

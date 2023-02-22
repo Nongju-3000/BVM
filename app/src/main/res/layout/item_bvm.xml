@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bvm_container"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -11,7 +12,7 @@
         android:gravity="start|center"
         android:maxLines="1"
         android:text="@string/bvm"
-        android:textSize="20sp"
+        android:textSize="10sp"
         android:textColor="@color/colorAccent"/>
 
     <TextView
@@ -21,7 +22,7 @@
         android:layout_weight="5"
         android:gravity="start|center"
         android:maxLines="1"
-        android:textSize="20sp"
+        android:textSize="10sp"
         android:textColor="@color/colorAccent"/>
 
 </LinearLayout>
