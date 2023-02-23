@@ -48,8 +48,10 @@ public class CPRBAND_Adapter extends RecyclerView.Adapter<CPRBAND_Adapter.ViewHo
     }
 
     public void addCPRBAND_Data(BluetoothDevice cprband_data) {
-        mCPRBAND_device.add(cprband_data);
-        notifyDataSetChanged();
+        if(!isDuplicate(cprband_data)) {
+            mCPRBAND_device.add(cprband_data);
+            notifyDataSetChanged();
+        }
     }
 
     public void setCPRBAND_Data(ArrayList<BluetoothDevice> cprband_data) {
@@ -95,5 +97,14 @@ public class CPRBAND_Adapter extends RecyclerView.Adapter<CPRBAND_Adapter.ViewHo
 
     public BluetoothDevice getItem(int pos){
         return mCPRBAND_device.get(pos);
+    }
+
+    private boolean isDuplicate(BluetoothDevice device){
+        for(int i = 0; i < mCPRBAND_device.size(); i++){
+            if(mCPRBAND_device.get(i).getAddress().equals(device.getAddress())){
+                return true;
+            }
+        }
+        return false;
     }
 }

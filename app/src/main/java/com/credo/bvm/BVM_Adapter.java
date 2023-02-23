@@ -53,8 +53,10 @@ public class BVM_Adapter extends RecyclerView.Adapter<BVM_Adapter.ViewHolder> {
     }
 
     public void addBVM_Data(BluetoothDevice bvm_data) {
-        bvm_decive.add(bvm_data);
-        notifyDataSetChanged();
+        if(!isDuplicate(bvm_data)) {
+            bvm_decive.add(bvm_data);
+            notifyDataSetChanged();
+        }
     }
 
     public void clearBVM_Data() {
@@ -95,5 +97,14 @@ public class BVM_Adapter extends RecyclerView.Adapter<BVM_Adapter.ViewHolder> {
 
     public BluetoothDevice getItem(int pos){
         return bvm_decive.get(pos);
+    }
+
+    private Boolean isDuplicate(BluetoothDevice bvm_data){
+        for(int i = 0; i < bvm_decive.size(); i++){
+            if(bvm_decive.get(i).getAddress().equals(bvm_data.getAddress())){
+                return true;
+            }
+        }
+        return false;
     }
 }
