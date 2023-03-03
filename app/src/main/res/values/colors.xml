@@ -49,4 +49,9 @@
 
     <color name="bordercolor">#414141</color>
     <color name="insidecolor">#282828</color>
+
+    <color name="lineColor">#49c644</color>
+    <color name="breathline">#FF6400</color>
+    <color name="compressline">#FF0000</color>
+    <color name="releaseline">#FFE600</color>
 </resources>

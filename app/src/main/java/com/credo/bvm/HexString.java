@@ -37,4 +37,11 @@ public class HexString {
 
         return data;
     }
+
+    public static String combinebytes(byte[] bytes) {
+
+        int value = ((bytes[1] & 0xFF) << 8) | (bytes[0] & 0xFF);
+
+        return(String.valueOf(value));
+    }
 }

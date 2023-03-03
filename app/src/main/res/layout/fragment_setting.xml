@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#161616"
-    tools:context=".ui.settings.settingsFragment">
+    android:background="#161616">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/Status_layout"
@@ -84,7 +83,6 @@
                     android:gravity="start|center"
                     android:layout_marginHorizontal="5dp"
                     android:textAllCaps="true"
-                    android:text="@string/connected"
                     android:textColor="@color/dividerColor"
                     app:layout_constraintStart_toEndOf="@id/bvm_tv"
                     app:layout_constraintTop_toTopOf="@id/bvm_tv"
@@ -100,7 +98,6 @@
                     android:gravity="start|center"
                     android:layout_marginHorizontal="5dp"
                     android:textAllCaps="true"
-                    android:text="@string/connected"
                     android:textColor="@color/dividerColor"
                     app:layout_constraintStart_toEndOf="@id/cprband_tv"
                     app:layout_constraintTop_toTopOf="@id/cprband_tv"
